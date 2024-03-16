@@ -1,0 +1,16 @@
+:root {
+    --gray-background: #E5E5E5;
+    --dark-blue: #0A3871;
+    --warning-color: #495057;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}

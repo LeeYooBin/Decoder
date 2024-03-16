@@ -1,0 +1,28 @@
+.home-page__warn {
+    width: auto;
+    height: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.home-page__warn-text {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: var(--warning-color);
+}
+
+.home-page__warn-symbol {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: var(--warning-color);
+    color: var(--white);
+    font-size: 1.75rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

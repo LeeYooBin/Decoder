@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/home-page.css">
+    <link rel="stylesheet" href="./src/styles/home-page__input.css">
+    <link rel="stylesheet" href="./src/styles/home-page__button.css">
+    <link rel="stylesheet" href="./src/styles/home-page__warning.css">
+    <title>Decoder</title>
+</head>
+<body>
+    <main class="home-page">
+        <div class="home-page__input-wrapper">
+            <textarea 
+                name="text" 
+                id="text-input"
+                class="home-page__input"
+                placeholder="Digite o seu texto" 
+                style="resize: none;"
+            ></textarea>
+            <span class="home-page__warn">
+                <div class="home-page__warn-symbol">!</div>
+                <p class="home-page__warn-text">Apenas letras minúsculas e sem acentos</p>
+            </span>
+            <div class="home-page__button-wrapper">
+                <button id="encrypt" class="home-page__button encrypt">Criptografar</button>
+                <button id="decrypt" class="home-page__button">Descriptografar</button>
+            </div>
+        </div>
+        <div class="home-page__result-wrapper">
+            <div class="home-page__result">
+                <div id="text-result">Nenhuma mensagem encontrada!</div>
+            </div>
+            <button id="copy-button" class="home-page__button">Copiar</button>
+        </div>
+    </main>
+    <script src="./src/scripts/encrypt.js"></script>
+    <script src="./src/scripts/decrypt.js"></script>
+    <script src="./src/scripts/copy.js"></script>
+</body>
+</html>
